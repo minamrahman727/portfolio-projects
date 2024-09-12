@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEX Pressure Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Z.png" type="image/png"> <!-- Add logo icon in the head -->
+</head>
+<body>
+    <div class="converter-container">
+        <img src="Z.png" alt="Logo" class="logo"> <!-- Logo above the heading -->
+        <div class="converter">
+            <h1>Pressure Converter</h1>
+            <input type="number" id="inputValue" placeholder="Enter value">
+            <select id="inputUnit">
+                <option value="atm">Atmosphere (atm)</option>
+                <option value="bar">Bars (bar)</option>
+                <option value="kPa">Kilopascals (kPa)</option>
+                <option value="mmHg">Millimeter of Mercury (mmHg)</option>
+                <option value="Pa">Pascals (Pa)</option>
+                <option value="psi">Pounds per Square Inch (psi)</option>
+            </select>
+            <button onclick="convertPressure()">Convert</button>
+
+            <h2>Converted Values</h2>
+            <div id="output"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

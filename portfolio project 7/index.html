@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zex Time Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>ZEX Time Converter</h1>
+        <img src="4.png" alt="Logo" class="logo">
+        <input type="number" id="inputValue" placeholder="Enter value">
+        <select id="inputUnit">
+            <option value="microsecond">Microseconds</option>
+            <option value="millisecond">Milliseconds</option>
+            <option value="second">Seconds</option>
+            <option value="minute">Minutes</option>
+            <option value="hour">Hours</option>
+            <option value="day">Days</option>
+            <option value="week">Weeks</option>
+            <option value="year">Years</option>
+        </select>
+        <button onclick="convertTime()">Convert</button>
+        <div class="result" id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

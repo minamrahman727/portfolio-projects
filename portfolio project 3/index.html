@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ZEXCurrency Converter</title>
+        <link rel="shortcut icon" href="zz.png" type="image/x-icon">
+        
+        <link rel="stylesheet" href="styles.css">
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    </head>
+    
+<body>
+    <div class="converter">
+        <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
+            <img src="zz.png" alt="ZEXCurrency Converter Logo" width="100" height="100">
+        </div>
+        <h1>ZEXCurrency Converter</h1>
+        
+        <div class="input-group">
+          <input type="number" id="amount" placeholder="Enter amount" />
+          
+          <select id="fromCurrency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="PKR">PKR</option>
+          </select>
+      
+          <button id="swapBtn">Swap</button>
+          
+          <select id="toCurrency">
+            <option value="EUR">EUR</option>
+            <option value="USD">USD</option>
+            <option value="PKR">PKR</option>
+          </select>
+        </div>
+        
+        <button id="convertBtn">Convert</button>
+        
+        <div id="result">Conversion Result Will Appear Here</div>
+      </div>
+      
+      
+    <script src="script.js"></script>
+</body>
+</html>
