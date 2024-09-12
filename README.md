@@ -1,8 +1,8 @@
 Portfolio Projects
 Welcome to my portfolio projects repository! This repository includes various projects showcasing different utilities and tools that I have developed. Below, you'll find details and live demo links for each project.
 
-Projects
-##@ 1. ZEXpencia - Expense Tracker
+##Projects
+### 1. ZEXpencia - Expense Tracker
 Description: A modern and sleek expense tracker designed to provide detailed insights into your expenditures with features like optional summaries and document attachments.
 Live Demo: zexpencia.vercel.app
 Tech Stack: HTML, CSS, JavaScript
@@ -36,8 +36,8 @@ To get started with any of these projects, clone the repository and follow the i
 Prerequisites
 Ensure you have the following installed:
 
-```Node.js (for development)```
-```Git (for version control)```
+```Node.js (for development)```<br/>
+```Git (for version control)``` <br/>
 Installation
 Clone the repository:
 bash
